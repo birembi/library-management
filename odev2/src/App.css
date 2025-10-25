@@ -1,0 +1,144 @@
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #fcfcfc;
+    color: #333;
+    margin: 0;
+}
+
+.ana-kapsayici {
+    padding: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.baslik {
+    font-size: 2.5em;
+    color: #4a148c;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.arama-filtre {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filtre-dropdown {
+    padding: 7px 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    height: 35px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: auto; /* Sağ tarafa itme */
+}
+
+.icerik-alani {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.kitaplar-alani {
+    flex: 2;
+    min-width: 400px;
+}
+
+.kitap-listesi {
+    list-style: none;
+    padding: 0;
+}
+
+/* Favoriler Kutusu Stili (Görseldeki beyaz kutu) */
+.favoriler-kutusu {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    min-width: 250px;
+}
+
+/* İstenen PEMBE Başlık Stili */
+.favoriler-baslik-ozel {
+    font-size: 1.2em;
+    color: #FF1493; /* Koyu Pembe */
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FF69B4; /* Pembe alt çizgi */
+    padding-bottom: 5px;
+}
+
+/* Kitap Kutusu Stilleri */
+.kitap-kutusu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.kitap-isim {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 0 0 3px 0;
+}
+
+.kitap-yazar {
+    font-size: 0.85em;
+    color: #666;
+    margin: 0;
+}
+.favori-dolu,
+.favori-bos {
+    padding: 5px 10px; 
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+}
+
+.favori-bos {
+    background-color: #f0f0f0;  
+    color: #333;
+}
+
+.favori-dolu {
+    background-color: #FFD700;  
+    color: #333;
+    border: 1px solid #daa520;
+}
+.favori-kitap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 0.9em;
+    border-bottom: 1px dotted #ccc;
+}
+
+.favori-kitap:last-child {
+    border-bottom: none;
+}
+
+.kaldir-buton {
+    background-color: #dc3545;  
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.75em;
+}
