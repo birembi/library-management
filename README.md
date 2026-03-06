@@ -4,4 +4,4 @@
 [Vercel Linki](https://library-management-bice.vercel.app)
 
 ## Kod Deposu
-https://github.com/birembi/odev2
+https://github.com/birembi/library-management
